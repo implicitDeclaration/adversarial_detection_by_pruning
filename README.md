@@ -1,7 +1,7 @@
 
 # Introduction
 
-Code to the paper "You Can’t Fool All The Models: Detect Adversarial Samples via Pruning Models".
+Code to the paper You Can’t Fool All The Models: Detect Adversarial Samples via Pruning Models and Adversarial sample detection via channel pruning
 
 The implementation of this artifact is based on pytorch 1.6 with python 3.7. 
 
@@ -61,7 +61,18 @@ python detect/adv_detect.py --config ./config/resnet18-unstru.yaml --multigpu 0 
 - [allenai/hidden-networks](https://github.com/allenai/hidden-networks)
 - [lmbxmu/abcpruner](https://github.com/lmbxmu/abcpruner)
 
-
+If our works helped you, consider cite
+'''bash
+@article{wang2021you,
+  title={You Can’t Fool All the Models: Detect Adversarial Samples via Pruning Models},
+  author={Wang, Renxuan and Chen, Zuohui and Dong, Hui and Xuan, Qi},
+  journal={IEEE Access},
+  volume={9},
+  pages={163780--163790},
+  year={2021},
+  publisher={IEEE}
+}
+'''
 
 
 
