@@ -62,7 +62,7 @@ python detect/adv_detect.py --config ./config/resnet18-unstru.yaml --multigpu 0 
 - [lmbxmu/abcpruner](https://github.com/lmbxmu/abcpruner)
 
 If our works helped you, consider cite
-'''bash
+```
 @article{wang2021you,
   title={You Can’t Fool All the Models: Detect Adversarial Samples via Pruning Models},
   author={Wang, Renxuan and Chen, Zuohui and Dong, Hui and Xuan, Qi},
@@ -72,7 +72,7 @@ If our works helped you, consider cite
   year={2021},
   publisher={IEEE}
 }
-'''
+```
 
 
 
