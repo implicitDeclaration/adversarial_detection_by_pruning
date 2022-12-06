@@ -1,0 +1,31 @@
+# Architecture
+arch: VGG16 
+structure: False
+# ===== Dataset ===== #
+data: /datasets
+set: svhn
+name: cVGG16
+
+# ===== Learning Rate Policy ======== #
+optimizer: sgd
+lr: 0.1
+lr_policy: cosine_lr
+
+# ===== Network training config ===== #
+epochs: 50
+weight_decay: 0.0005
+momentum: 0.9
+batch_size: 256
+
+# ===== Sparsity =========== #
+conv_type: SubnetConv
+bn_type: NonAffineBatchNorm
+init: kaiming_normal
+mode: fan_in
+nonlinearity: relu
+prune_rate: -1
+scale_fan: True
+freeze_weights: True
+
+# ===== Hardware setup ===== #
+workers: 0
